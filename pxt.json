@@ -1,5 +1,6 @@
 {
     "name": "webcam-integration",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -15,7 +16,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.8.17",
+        "target": "1.8.20",
         "targetId": "arcade"
     },
     "supportedTargets": [
