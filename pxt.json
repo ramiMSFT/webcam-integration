@@ -3,14 +3,11 @@
     "version": "1.0.0",
     "description": "",
     "dependencies": {
-        "device": "*",
-        "arcade-webcam": "github:ramiMSFT/arcade-webcam#v0.0.10"
+        "device": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
-        "README.md",
-        "assets.json"
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
