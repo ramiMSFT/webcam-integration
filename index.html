@@ -28,6 +28,8 @@
     <link rel="apple-touch-icon" href="./icon.png">
     <link rel="icon" type="image/png" href="./icon.png">
     <link rel="shortcut icon" href="./icon.png">
+    <script type="text/javascript" src="./assets/js/seriously/seriously.js"></script>
+    <script type="text/javascript" src="./assets/js/seriously/effects/seriously.colorcube.js"></script>
     <script type="text/javascript" src="./assets/js/loader.js?v={{ site.github.build_revision }}"></script>
     <script type="text/javascript" src="./assets/js/custom.js?v={{ site.github.build_revision }}"></script>
     <style>
@@ -83,6 +85,7 @@
             bottom: 0;
             cursor: pointer;
         }
+
         .lds-ripple {
             width: 80px;
             height: 80px;
@@ -155,9 +158,12 @@
         sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
     </iframe>
     <footer id="footer">
-        <a target="blank" rel="nofollow noopener" href="https://{{ site.github.owner_name }}.github.io/{{ site.github.repository_name }}/README">Manual</a>
-        <a target="blank" rel="nofollow noopener" href="https://arcade.makecode.com/#pub:github:{{ site.github.owner_name }}/{{ site.github.repository_name }}">Edit</a>
-        <a target="blank" rel="nofollow noopener" href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}">GitHub</a>
+        <a target="blank" rel="nofollow noopener"
+            href="https://{{ site.github.owner_name }}.github.io/{{ site.github.repository_name }}/README">Manual</a>
+        <a target="blank" rel="nofollow noopener"
+            href="https://arcade.makecode.com/#pub:github:{{ site.github.owner_name }}/{{ site.github.repository_name }}">Edit</a>
+        <a target="blank" rel="nofollow noopener"
+            href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}">GitHub</a>
         <span id="version"></span>
         <div id="fullscreen">⇲</div>
     </footer>
